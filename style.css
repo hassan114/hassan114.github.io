@@ -9,8 +9,21 @@ h1{text-transform: uppercase;}
 body {
     background-color: LightGray;
    padding-top: 50px;
-    padding-right: 30px;
-    padding-bottom: 50px;
-    padding-left: 80px
+    padding-right: 100px;
+    padding-bottom: 100px;
+    padding-left: 100px
+     
   
+}
+img {
+    float: right;
+}
+img{
+   position: relative;
+    -webkit-animation: mymove 5s infinite;
+    animation: mymove 40s infinite;
+}
+@-webkit-keyframes mymove {
+    from {left: 100px;}
+    to {left: 200px;}
 }
