@@ -1,8 +1,11 @@
-
 header{text-align: center;}
 
-div{text-align: right;}
+div{text-align: center;}
+div 
 
-h3{text-decoration: underline;}
+h2{text-decoration: underline;}
 
 h1{text-transform: uppercase;}
+body {
+    background-color: LightGray;
+}
